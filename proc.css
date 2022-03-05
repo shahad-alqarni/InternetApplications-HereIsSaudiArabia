@@ -1,0 +1,390 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Rakkas&family=Tajawal:wght@300;500&display=swap');
+*{
+
+padding: 0;
+margin: 0;
+
+}
+
+body{
+
+   font-family: 'Tajawal', sans-serif;
+   line-height: 1.5;
+background-color: #f6f6f6;
+min-height:1800px ;
+}
+
+a{
+text-decoration: none;
+
+}
+#n{
+display: flex;
+justify-content: space-between;
+padding: 1rem;
+position:sticky;
+top: 0;
+background-color: rgba(32, 31, 31, 0.144);
+z-index: 1;
+
+}
+
+#n ul{
+display: flex;
+list-style: none;
+align-items: center;
+
+}
+
+#n ul li a{
+    color: rgba(255, 255, 255, 0.781);
+    margin: 0 0.9rem;
+    padding: 0.75rem;
+    }
+#n ul li a:hover{
+        background-color: #aa9c4dcb;
+        border-radius: 5px;
+ }
+
+  #h{
+
+background: #fff url(h.jpeg) no-repeat center center/cover ;
+height: 100vh;
+color: #fff;
+
+
+ }
+ #h .hc{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: top;
+    align-items: center;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+
+  
+ position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+ }
+ .lh{
+
+font-size: 3.8rem;
+margin-top: 12rem;
+margin-bottom: 1.9rem;
+
+line-height: 1.1;
+
+ }
+  .lp{
+
+    color:rgba(255, 255, 255, 0.781); 
+    font-size: 1.2rem;
+
+    margin-bottom: 3.2rem;
+
+ }
+
+ 
+ .btn{
+
+display: inline-block;
+color: #fff;
+
+background-color: #2a6b68cb;
+/*
+border: 1px solid #fff;*/
+padding: 0.5rem 1rem;
+border-radius: 4px;
+
+ }
+
+ .btn:hover{
+    background-color: #2a6b68ef;
+
+
+ }
+ 
+ #rm{
+   display: flex;
+   justify-content: space-between;
+   
+   background-color: rgba(255, 255, 255);
+   z-index: 1;
+   
+   }
+
+
+
+ #rm .rm1{
+   display: flex;
+   list-style: none;
+   align-items: center;
+   
+
+ }
+ 
+#rm ul li {
+   color: rgba(156, 154, 154, 0.815);
+   margin: 0 4.7rem;
+   padding: 0.3rem;
+   }
+
+   #featur{
+
+
+      padding: 100px 40px 40px 40px;
+   }
+
+   #featur .cont{
+      display: flex;
+      align-items: center;
+   }
+
+   #featur .feat {
+      color: rgba(0, 0, 0, 0.884);
+font-size: 15px;
+      margin: auto;
+            text-align: center;
+         }
+
+         #hf{
+            /*
+color: rgba(201, 108, 108, 0.884) !important;
+font-size:35px  !important;
+text-decoration: underline;*/
+
+         }
+   #rf{
+      /*
+   color: #aa9c4dcb !important;
+   font-size:35px !important;
+  text-decoration: underline;*/
+  
+
+  
+     }
+     #tf{
+        /*
+    color: #548a87f5 !important;
+    font-size:35px !important;
+  text-decoration: underline;
+  
+  
+  
+  html
+  
+<div id="featur">
+<div class="cont">
+
+    <div class="feat">
+<h3>   إرث و <span id="hf"> حضارة </span> </h3>
+        
+    </div>
+
+    <div class="feat">
+
+        <h3>  <span id="rf"> رؤية </span>واعدة </h3>
+
+    </div>
+
+    <div class="feat">
+        <h3> تنوع <span id="tf">طبيعي </span> </h3>
+
+        
+    </div>
+</div>
+</div>
+  
+  
+  
+  */
+
+
+    }
+
+
+    .mm{
+
+      padding-top:70px ;
+
+      padding-bottom:70px ;
+      color: rgba(0, 0, 0, 0.884);
+   text-align: center;
+   font-size: 30px;
+
+   
+   }
+.line{
+
+border-radius: 10px!important;
+   width: 155px !important;
+   height: 3.5px !important;
+   margin: 10px auto;
+   background: #aa9c4dcb !important;
+}
+#mlo{
+   display: flex;
+   justify-content: space-between;
+   z-index: 1;
+   margin-right: 60px;
+   margin-left: 60px;
+
+
+}
+
+
+
+.ith{
+
+   position: relative;
+   overflow: hidden;
+background-color: tomato;
+border-radius: 10px;
+
+}
+
+.ith img{
+   width: 100%;
+   height: 100%;
+
+}
+
+
+ .ly{
+
+width:100%;
+height:100%;
+
+   position: absolute;
+   opacity: 0;
+
+   transition: 0.5s;
+}
+
+.ly:hover {
+   background-color: #aa9c4dcb;
+   opacity: 1;
+
+
+}
+.ly h3{
+   width:100%;
+   height:100%;
+   color: #fff;
+font-size: 15px;
+bottom: 0px;
+right: 95px;
+position:absolute;
+transform: translatey(90%);
+opacity: 0;
+transition: 0.5s;
+}
+.ly:hover h3{
+   bottom: 49%;
+   opacity: 1;
+}
+.q{
+   position: relative;
+   overflow: hidden;
+background-color: tomato;
+border-radius: 10px;
+
+   }
+   .q img{
+      width: 100%;
+      height: 100%;
+      }
+   
+.rf{
+   position: relative;
+   overflow: hidden;
+   background-color: tomato;
+   border-radius: 10px;
+
+   }
+   .rf img{
+      width: 100%;
+      height: 100%;
+      }
+
+      .msr{
+         width: 100%;
+         height:100vh;
+         background: rgba(255, 255, 255, 0.349) url(ms3fif.png) no-repeat center center/cover ; 
+         margin-bottom: 50px;
+         display: flex;
+         align-items: left;
+               }
+         
+               .cont{
+         
+         width: 60%;
+         padding: 50px;
+         color: #fff;
+               }
+         
+               .cont h3{
+         
+                  font-size: 50px;
+                  margin-top: 25px;
+                  margin-right: 3px;
+               }
+
+              .cont .tkh{
+               color: #aa9c4d;
+               font-size: 28px;
+               margin-right: 30px;
+
+              }
+               .cont p{
+
+                  color:rgba(255, 255, 255, 0.87) ;
+                  margin-right: 1px;
+                  margin-top: 19px;
+                  gap: 7px;
+
+
+               }
+
+               .cont .ctn{
+
+                  margin-top: 30px;
+                  display: inline-block;
+                    color: white;
+                  background-color: #883c3c;
+
+                  padding: 0.5rem 1rem;
+                  border-radius: 4px;
+               }
+
+               
+ .cont .ctn:hover{
+   background-color: #883c3cb2;
+
+
+}
+
+
+
+#footer{
+
+   width: 100%;
+   height: 100px;
+   margin-top: 20px;
+   background-color: #437c79b4;
+   text-align: center;
+   overflow: hidden;
+}
+#footer p{
+padding-top: 20px;
+   color: #fff;
+}

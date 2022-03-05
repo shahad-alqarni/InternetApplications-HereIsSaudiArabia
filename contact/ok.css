@@ -1,0 +1,55 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 500px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 109px;
+  height: 99px;
+  animation-duration: 1500ms;
+  background-image: url("images/E.jpg");
+  background-position: 50% 50%;
+  margin: 168px auto 0 738px;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: Cairo;
+  margin: -67px auto 60px 293px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-image-1 {
+    width: 99px;
+    margin-right: 238px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-image-1 {
+    margin-left: 611px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 224px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-image-1 {
+    margin-left: 431px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 168px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-image-1 {
+    margin-right: auto;
+    margin-left: 231px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 106px;
+  }
+}
